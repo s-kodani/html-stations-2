@@ -8,7 +8,20 @@
   </head>
   <body>
     <main>
+      <h1>入力フォーム</h1>
       <form action="" method="post">
+        <h2>email</h2>
+        <section>
+          <input type="email" id="email" required />
+        </section>
+        <h2>Password</h2>
+        <section>
+          <input type="password" id="password" minlength="6" required />
+        </section>
+        <h2>Nickname</h2>
+        <section>
+          <input type="text" maxlength="20" id="nickname" size="20" />
+        </section>
         <button type="submit">送信</button>
       </form>
     </main>
